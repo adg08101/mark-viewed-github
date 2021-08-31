@@ -1,0 +1,27 @@
+{
+  "name": "Check/UnCheck All Viewed Files for GitHub",
+  "description": "Check/UnCheck All Viewed Files for GitHub, Faster!!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author": "Ahmed Dávila Guerrero",
+  "background": {
+    "service_worker": "all_checked.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/icons8-checked-16.png",
+      "32": "/images/icons8-checked-32.png",
+      "48": "/images/icons8-checked-48.png",
+      "128": "/images/icons8-checked-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/icons8-checked-16.png",
+    "32": "/images/icons8-checked-32.png",
+    "48": "/images/icons8-checked-48.png",
+    "128": "/images/icons8-checked-128.png"
+  },
+  "options_page": "options.html"
+}

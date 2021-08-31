@@ -1,2 +1,2 @@
-# mark-viewed-github
-Chrome Extension to Mark All Files as Viewed on a Click for PRs Review
+# ParamToURL-Go
+Google Chrome Component to Param URLs before GET!
